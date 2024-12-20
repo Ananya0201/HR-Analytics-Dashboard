@@ -4,7 +4,7 @@
 
 ## Process for preparing the project:
 
-1.Understanding Business requirement: The report has been created keeping in mind the following question from the Clients End:
+A.Understanding Business requirement: The report has been created keeping in mind the following question from the Clients End:
 
 1) How many people are in each job?
 2) Gender break-down of the staff
@@ -17,7 +17,7 @@
 9) Leave balance analysis
 10) Quick HR Dashboard
 
-2.Data Walkthrough: The Data was preety precise and contained no null values or duplicate values.
+B.Data Walkthrough: The Data was preety precise and contained no null values or duplicate values.
 
 #### ❖	Overview : 
 The dataset contains feature vectors for 161 data points. The data is curated to avoid bias in order to derive genuine results. The dataset consists of a total of 8 columns out of which - 4 contain string data type, 1 date column and 3 mumerical attributes.
