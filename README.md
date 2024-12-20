@@ -1,1 +1,60 @@
 # HR-Analytics-Dashboard
+
+## Dashboard Link: https://app.powerbi.com/groups/me/reports/e7d657d0-9790-4f7a-ba40-39be6870571e/f6c7ed71e1c108aaab7d?experience=power-bi
+
+## Process for preparing the project:
+
+1.Understanding Business requirement: The report has been created keeping in mind the following question from the Clients End:
+
+1) How many people are in each job?
+2) Gender break-down of the staff
+3) Age spread of the staff
+4) Which jobs pay more?
+5) Top earners in each job
+6) Qualification vs. Salary
+7) Staff growth trend over time
+8) Employee filter by starting letter
+9) Leave balance analysis
+10) Quick HR Dashboard
+
+2.Data Walkthrough: The Data was preety precise and contained no null values or duplicate values.
+
+#### ❖	Overview : 
+The dataset contains feature vectors for 161 data points. The data is curated to avoid bias in order to derive genuine results. The dataset consists of a total of 8 columns out of which - 4 contain string data type, 1 date column and 3 mumerical attributes.
+
+#### ❖	Explanation: 
+The dataset includes the following fields:
+
+●	Emp ID : Unique Value given to employees for identification.
+
+●	Gender: Gender of the employees.
+
+● Educational Qualification : Educational Background of the employee.
+
+●	Date of Join: The date when the employee joined the organisation.
+
+●	Job Title : Type of work designation of the employee.
+
+●	Salary : Salary p.a of the employee
+
+●	Age : No of years on Earth.
+
+●	Leave Balance : amount of leave (such as paid time off, sick leave, vacation days, etc.) that an employee has accumulated or is entitled to use but has not yet used.
+
+### Steps followed 
+
+- Step 1 : Load dataset into Power BI Desktop, dataset is an xlxs file type.
+- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+- Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
+- Step 4 : It was observed that in none of the columns, errors & empty values and no duplicates.
+- Step 5 : A new column with only the first characters of the name of the employees was created for use in report view.
+- Step 6 : Four card visuals were added to the canvas, representing Total Employees, Avg of Salary, Avg Leave Balance, LBL.
+- Step 7 : New measure were for the following calculations.
+  Following DAX expression was written for the same,
+  
+ 1. Total Employees = DISTINCTCOUNT(data[Emp ID])
+   A card visual was used to represent this.
+   Snap of Total Sales
+
+  ![Screenshot 2024-12-20 223622](https://github.com/user-attachments/assets/15e325d7-b131-45a1-8b43-7a5fc0f89a03)
+
