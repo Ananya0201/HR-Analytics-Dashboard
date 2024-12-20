@@ -53,7 +53,9 @@ The dataset includes the following fields:
   Following DAX expression was written for the same,
   
  1. Total Employees = DISTINCTCOUNT(data[Emp ID])
+    
    A card visual was used to represent this.
+   
    Snap of Total Sales
 
   ![Screenshot 2024-12-20 223622](https://github.com/user-attachments/assets/15e325d7-b131-45a1-8b43-7a5fc0f89a03)
