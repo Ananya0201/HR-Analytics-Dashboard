@@ -41,7 +41,7 @@ The dataset includes the following fields:
 
 ●	Leave Balance : amount of leave (such as paid time off, sick leave, vacation days, etc.) that an employee has accumulated or is entitled to use but has not yet used.
 
-### Steps followed 
+### ❖ Steps followed 
 
 - Step 1 : Load dataset into Power BI Desktop, dataset is an xlxs file type.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
@@ -56,7 +56,51 @@ The dataset includes the following fields:
     
    A card visual was used to represent this.
    
-   Snap of Total Sales
+   Snap of Total Employees
 
   ![Screenshot 2024-12-20 223622](https://github.com/user-attachments/assets/15e325d7-b131-45a1-8b43-7a5fc0f89a03)
 
+  2. Avg of Salary = AVERAGE(data[Salary])
+
+   A card visual was used to represent this.
+   
+   Snap of Avg Salary
+
+   ![Screenshot 2024-12-20 231104](https://github.com/user-attachments/assets/9a0c9344-16d4-4f9d-9b64-80b0a8c3635c)
+
+  3. Avg Leave Balance = AVERAGE(data[Leave Balance])
+
+    A card visual was used to represent this.
+   
+    Snap of Avg Leave Balance
+
+  ![Screenshot 2024-12-20 231234](https://github.com/user-attachments/assets/e7a596f3-6593-4681-b679-019e91a41240)
+
+  4. LBL = CALCULATE([Total Employees], data[Leave Balance] > 20)
+
+    A card visual was used to represent this.
+   
+    Snap of LBL
+
+  ![Screenshot 2024-12-20 231403](https://github.com/user-attachments/assets/48bb15c3-f911-433e-97d0-72fdfeef0a7b)
+
+
+  #### Report Snapshot (Power BI DESKTOP) 
+
+  Snap Of Home Page:
+
+  ![Screenshot 2024-12-20 231636](https://github.com/user-attachments/assets/fef4ec00-d332-4c6f-9f9d-3eb9aef72404)
+
+  Snap of Top Earners and Staff Growth Trend:
+
+  ![Screenshot 2024-12-20 231717](https://github.com/user-attachments/assets/232a785b-fbcb-4488-b71f-c444c58cd056)
+
+  Snap Of Employees Details:
+
+  ![Screenshot 2024-12-20 231805](https://github.com/user-attachments/assets/1791fce9-a722-4027-b069-740e1c0c683a)
+
+  Snap of HR Analytics Dashboard:
+
+  ![Screenshot 2024-12-20 231543](https://github.com/user-attachments/assets/0c296dd8-417d-46c9-bcb3-c0a8b4f1ddbd)
+    
+     
